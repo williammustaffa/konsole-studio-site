@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <title>Konsole studio</title>
+  <meta name="description" content="Creative development studio">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <meta property="og:title" content="Konsole Studio">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://konsole.studio">
+	<meta property="og:site_name" content=" Konsole Studio">
+	<meta property="og:description" content="Creative development studio">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900|Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="js/modernizr-2.7.1.js"></script>
+
+</head>
+
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="scroll" href="#header"><img class="logo" height='40' src="img/logo_konsole.png" alt="Logo"></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#main-info" class="scroll">Projects</a></li>
+            <li><a href="#newsletter" class="scroll">Newsletter</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+    <header id="header">
+      <canvas id="constellation"></canvas>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6">
+            <a class="scroll" href="#header"><img height='40' src="img/logo_konsole.png" alt="Logo"></a>
+          </div>
+          <div class="col-xs-6 signin text-right navbar-nav">
+            <a href="#main-info" class="scroll">Projects</a>&nbsp; &nbsp;<a href="#newsletter" class="scroll">Newsletter</a>
+          </div>
+        </div>
+
+        <div class="row header-info">
+          <div class="col-sm-10 col-sm-offset-1 text-center">
+            <h1 class="wow fadeIn">Creative development studio</h1>
+            <h2 class="wow fadeIn"  data-wow-delay="1s">Games, apps, plugins and more.</h2>
+            <br />
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                <div class="row">
+                  <div class="col-xs-12 text-center wow fadeInUp" data-wow-delay="2s">
+                    <a href="#main-info" class="btn btn-secondary btn-lg scroll">See what's coming</a>
+                  </div>
+                </div><!--End Button Row-->
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </header>
+    <br>
+    <div class="mouse-icon hidden-xs">
+			<div class="scroll"></div>
+		</div>
+
+    <section id="main-info">
+	    <div class="container">
+		    <div class="row">
+          <h2 class='section-title'>Our projects</h2>
+        </div>
+		    <div class="row">
+			    <div class="col-sm-4 wow fadeIn padding-bottom" data-wow-delay="0.4s">
+            <a target="_blank" href="http://gamejolt.com/games/alive/10835">
+              <img src="img/alive.gif" class="project-image">
+  				    <hr class="line purple">
+  				    <h3>Alive</h3>
+  				    <p>A pixel art adventure game where you'll be able to help human kind from its extinction. Incredible story featured with many puzzles and awesome scenarios.</p>
+            </a>
+          </div>
+			    <div class="col-sm-4 wow fadeIn padding-bottom" data-wow-delay="0.8s">
+            <img src="img/hojetem.png" class="project-image">
+				    <hr  class="line blue">
+				    <h3>#hojetem</h3>
+				    <p>An awesome app created to help you finding the perfect party for you and your friends. Connect though your facebook account and enjoy its features!</p>
+			    </div>
+			    <div class="col-sm-4 wow fadeIn padding-bottom" data-wow-delay="1.2s">
+            <a target="_blank" href="/dad">
+              <img src="img/dad.gif" class="project-image">
+  				    <hr  class="line yellow">
+  				    <h3>dad.js</h3>
+  				    <p>A simple and easy-to-use drag and drop jquery plugin for developers.</p>
+            </a>
+			    </div>
+		    </div>
+	    </div>
+    </section>
+
+
+    <section id="newsletter" class="pad-lg light-gray-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2 text-center">
+            <i class="fa fa-envelope-o margin-40"></i>
+            <h2 class="black">Subscribe to our newsletter</h2>
+            <br />
+            <p class="black">Receive updates from our projects.</p>
+            <br />
+
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                <form role="form" id="newsletter">
+                  <div class="form-group" >
+                    <input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Email">
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-lg">Subscribe</button>
+                </form>
+              </div>
+            </div><!--End Form row-->
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+
+        <div class="row">
+          <div class="col-sm-8 margin-2 hidden">
+            <ul class="list-inline social ">
+              <li>Connect with us on</li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+          </div>
+
+          <div class="col-sm-12 text-center">
+            <p><small>Copyright &copy; 2016. All rights reserved.</p>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+
+    <!-- Javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/constellation.js"></script>
+
+
+    </body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "hotsite",
+  "version": "1.0.0",
+  "description": "just a hotsite server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.14.0"
+  }
+}
