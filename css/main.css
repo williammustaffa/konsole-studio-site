@@ -392,6 +392,16 @@ hr.line {
 	color: #fdc05d;
 }
 
+.darkPurple {
+  border-color: #535469;
+	color: #535469;
+}
+
+.pink {
+  border-color: #e44c65;
+	color: #e44c65;
+}
+
 .iphone {
     position: relative;
     height: 200px;
