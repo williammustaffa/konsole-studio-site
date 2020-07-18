@@ -1,7 +1,7 @@
 
 # GML support
 
-Below the supported syntax support based on the GML docs:
+Below the current syntax support based on the GML docs:
 
 ## Object instance properties
 <table>
