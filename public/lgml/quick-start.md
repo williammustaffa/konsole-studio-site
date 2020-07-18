@@ -23,13 +23,15 @@ In the example above we are passing the option `entry`. `entry` is the path to y
 ## Creating a game
 The following structure is recommended for the use of this framework:
 
-📦your-game folder
- ┣ 📂core
- ┣ 📂src
- ┃ ┣ 📂assets
- ┃ ┣ 📂objects
- ┃ ┣ 📂rooms
- ┃ ┣ 📂sprites
- ┃ ┗ 📜Game.lua
- ┣ 📜conf.lua
- ┗ 📜main.lua
+```
+📦 your-game folder
+ ┣ 📂 core
+ ┣ 📂 src
+ ┃ ┣ 📂 assets
+ ┃ ┣ 📂 objects
+ ┃ ┣ 📂 rooms
+ ┃ ┣ 📂 sprites
+ ┃ ┗ 📜 Game.lua
+ ┣ 📜 conf.lua
+ ┗ 📜 main.lua
+ ```
