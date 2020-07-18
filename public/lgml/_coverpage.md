@@ -1,4 +1,4 @@
-![logo](_media/icon.svg)
+![logo](_media/lgml-logo.svg)
 
 # LGML <small>alpha</small>
 
@@ -6,4 +6,4 @@
 
 - Simple and easy-to-use
 
-[Get Started](#guide)
+[Get Started](/#introduction)

@@ -11,14 +11,17 @@
     table {
       width: 100%;
     }
-    :root {
-      --theme-color: #f80a7b;
-    }
     .search input:focus {
       box-shadow: none !important;
     }
     .app-name {
       padding-top: 10px;
+    }
+    section.cover {
+      background: linear-gradient(to left bottom, hsl(194, 100%, 85%) 0%,hsl(86, 100%, 85%) 100%) !important;
+    }
+    section.cover img {
+      max-width: 200px;
     }
   </style>
 </head>
@@ -26,9 +29,12 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
+      themeColor: '#8CD248',
       name: 'LGML - Löve2d & GML',
       repo: 'https://github.com/williammustaffa/love-gml',
       loadSidebar: true,
+      coverpage: true,
+      autoHeader: true,
       subMaxLevel: 3
     }
   </script>
