@@ -3,7 +3,7 @@
 
 Below the current syntax support based on the GML docs:
 
-## Object instance properties
+## Instance
 <table>
    <thead>
       <tr>
@@ -270,7 +270,7 @@ Below the current syntax support based on the GML docs:
    </tbody>
 </table>
 
-## Room instance properties
+## Room
 <table>
    <thead>
       <tr>
@@ -289,7 +289,7 @@ Below the current syntax support based on the GML docs:
    </tody>
 </table>
 
-## Game instance properties
+## Game
 <table>
    <thead>
       <tr>
@@ -308,7 +308,7 @@ Below the current syntax support based on the GML docs:
    </tody>
 </table>
 
-## Sprite instance properties
+## Sprite
 <table>
    <thead>
       <tr>

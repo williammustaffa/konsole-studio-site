@@ -20,4 +20,16 @@ require('core.LGML')({
 ``` 
 In the example above we are passing the option `entry`. `entry` is the path to your `LGML.Game` entity that will contain all you game definition.
 
-See the [documentation](http://konsole.studio/lgml) for more informationa about `LGML.Game` and other LGML entities.
+## Creating a game
+The following structure is recommended for the use of this framework:
+
+📦your-game folder
+ ┣ 📂core
+ ┣ 📂src
+ ┃ ┣ 📂assets
+ ┃ ┣ 📂objects
+ ┃ ┣ 📂rooms
+ ┃ ┣ 📂sprites
+ ┃ ┗ 📜Game.lua
+ ┣ 📜conf.lua
+ ┗ 📜main.lua
