@@ -7,7 +7,20 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
-  <style>table { width: 100% }</style>
+  <style>
+    table {
+      width: 100%;
+    }
+    :root {
+      --theme-color: #f80a7b;
+    }
+    .search input:focus {
+      box-shadow: none !important;
+    }
+    .app-name {
+      padding-top: 10px;
+    }
+  </style>
 </head>
 <body>
   <div id="app"></div>
@@ -15,14 +28,13 @@
     window.$docsify = {
       name: 'LGML - Löve2d & GML',
       repo: 'https://github.com/williammustaffa/love-gml',
-      search : [
-        '/',            // => /README.md
-        '/guide',       // => /guide.md
-        '/get-started', // => /get-started.md
-        '/zh-cn/',      // => /zh-cn/README.md
-      ],
+      loadSidebar: true,
+      subMaxLevel: 3
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
 </body>
 </html>
