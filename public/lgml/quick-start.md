@@ -24,14 +24,14 @@ In the example above we are passing the option `entry`. `entry` is the path to y
 The following structure is recommended for the use of this framework, but you can create it as you like:
 
 ```
-📦 your-game folder
+📦 your-game-folder
  ┣ 📂 core
  ┣ 📂 src
  ┃ ┣ 📂 assets
  ┃ ┣ 📂 objects
  ┃ ┣ 📂 rooms
  ┃ ┣ 📂 sprites
- ┃ ┗ 📜 Game.lua
+ ┃ ┗ 📜 game.lua
  ┣ 📜 conf.lua
  ┗ 📜 main.lua
  ```
@@ -39,14 +39,14 @@ The following structure is recommended for the use of this framework, but you ca
 First of all we will need a Game object to handle all of our rooms and objects and we will later provide it as the entry point to **LGML**. In order to create it we can use whe `LGML.Game` method:
 ```
 -- Game.lua
-local Game = LGML.Game('App')
+local game = LGML.Game('game')
 
 -- Here we can setup a game include configurations and rooms
-function Game:create(options)
+function game:create(options)
   -- Add rooms and game configs
 end
 
-return Game
+return game
 ``` 
 
 *To be continued...*
