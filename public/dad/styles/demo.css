@@ -211,14 +211,6 @@ h3 small {
   content: "Drop here to delete";
 }
 
-.area-2:before {
-  content: "Numbers";
-}
-
-.area-3:before {
-  content: "Letters";
-}
-
 /* footer section */
 footer {
   background: #18182b;
