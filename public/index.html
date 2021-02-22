@@ -36,7 +36,7 @@
 
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
+      <div class="navbar-container fixed">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon-bar"></span>
@@ -56,32 +56,35 @@
     </div>
     <header id="header">
       <canvas id="constellation"></canvas>
-      <div class="container">
+      <div class="navbar-container navbar-inverse">
         <div class="row">
           <div class="col-xs-6">
             <a class="scroll" href="#header"><img height='40' src="img/logo_konsole.png" alt="Logo"></a>
           </div>
-          <div class="col-xs-6 signin text-right navbar-nav">
-            <a href="#main-info" class="scroll">Projects</a>&nbsp; &nbsp;<a href="#newsletter" class="scroll">Newsletter</a>
+          <div class="col-xs-6 text-right">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#main-info" class="scroll">Projects</a></li>
+              <li><a href="#about" class="scroll">About</a></li>
+              <li><a href="#newsletter" class="scroll">Newsletter</a></li>
+            </ul>
           </div>
         </div>
-
-        <div class="row header-info">
-          <div class="col-sm-10 col-sm-offset-1 text-center">
-            <h1 class="wow fadeIn">Creative development studio</h1>
-            <h2 class="wow fadeIn"  data-wow-delay="1s">Games, apps, plugins and more.</h2>
-            <br />
-            <div class="row">
-              <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-                <div class="row">
-                  <div class="col-xs-12 text-center wow fadeInUp" data-wow-delay="2s">
-                    <a href="#main-info" class="btn btn-secondary btn-lg scroll">See what's coming</a>
-                  </div>
-                </div><!--End Button Row-->
-              </div>
+      </div>
+      <div class="row header-info">
+        <div class="col-sm-10 col-sm-offset-1 text-center">
+          <h1 class="wow fadeIn">Creative development studio</h1>
+          <h2 class="wow fadeIn"  data-wow-delay="1s">Games, apps, plugins and more.</h2>
+          <br />
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+              <div class="row">
+                <div class="col-xs-12 text-center wow fadeInUp" data-wow-delay="2s">
+                  <a href="#main-info" class="btn btn-secondary btn-lg scroll">See what's coming</a>
+                </div>
+              </div><!--End Button Row-->
             </div>
-
           </div>
+
         </div>
       </div>
     </header>
@@ -120,6 +123,8 @@
               <p>Infinite side scroller where you actions have effects.</p>
             </a>
           </div>
+        </div>
+        <div class="row">
           <div class="col-sm-4 wow fadeIn padding-bottom" data-wow-delay="1s">
             <a target="_blank" href="/dad">
               <img src="img/dad.gif" class="project-image" />
