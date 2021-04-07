@@ -183,7 +183,7 @@ function step(){
     ctx.globalAlpha =0.5;
     ctx.translate(sett.x,sett.y+(f(fn/1.2+3)*3));
     draw_screen(room);
-    ctx.globalCompositeOperation = "darker";
+    ctx.globalCompositeOperation = "darken";
     ctx.fillStyle='#EE0000';
     ctx.fillRect(0,0,elem.width,elem.height);
     ctx.restore();
