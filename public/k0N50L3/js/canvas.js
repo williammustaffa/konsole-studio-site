@@ -93,7 +93,7 @@ function draw_hud(){
     ctx.textAlign='left';
     ctx.fillText('1 credit', 10, 35);
     ctx.textAlign='right';
-    ctx.fillText('hi score: 24, 051, 994', elem.width-10, 35);
+    ctx.fillText('hi score: 999,587', elem.width-10, 35);
     ctx.fillText('CONTROLS: ARROWS, ENTER', elem.width-10, elem.height-20);
     /* draw footer */
     ctx.textAlign='left';
