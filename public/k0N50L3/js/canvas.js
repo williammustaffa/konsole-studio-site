@@ -245,11 +245,11 @@ function draw_set_line_width(width){
 /*run game*/
 window.addEventListener('load',run, false);//run when window loads
 //sound1=add_sound('sounds/nintendo_02.wav',0.1);
-sound2=add_sound('sounds/Asteroids_Tone02.wav',0.1);
-sound1=add_sound('sounds/Frogger_Hop.wav',0.4);
-image=add_image('img/konsole_logo.png');
-avatar1=add_image('img/AVATAR_1.png');
-avatar2=add_image('img/AVATAR_2.png');
+sound2=add_sound('/k0N50L3/sounds/Asteroids_Tone02.wav',0.1);
+sound1=add_sound('/k0N50L3/sounds/Frogger_Hop.wav',0.4);
+image=add_image('/k0N50L3/img/konsole_logo.png');
+avatar1=add_image('/k0N50L3/img/AVATAR_1.png');
+avatar2=add_image('/k0N50L3/img/AVATAR_2.png');
 
 var room_start=room_add('START',
     function(){
